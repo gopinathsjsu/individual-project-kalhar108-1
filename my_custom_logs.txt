@@ -1,0 +1,15 @@
+timestamp=2024-12-04T10:00:00Z metric=cpu_usage_percent host=server1 value=85
+timestamp=2024-12-04T10:00:05Z level=INFO message="Application started successfully" host=server1
+timestamp=2024-12-04T10:00:10Z request_method=GET request_url="/api/users" response_status=200 response_time_ms=150 host=server1
+timestamp=2024-12-04T10:00:15Z metric=memory_usage_percent host=server1 value=70
+timestamp=2024-12-04T10:00:20Z level=ERROR message="Database connection failed" error_code=1001 host=server1
+timestamp=2024-12-04T10:00:25Z request_method=POST request_url="/api/login" response_status=401 response_time_ms=50 host=server1
+timestamp=2024-12-04T10:00:30Z metric=disk_usage_percent mountpoint=/ host=server1 value=45
+timestamp=2024-12-04T10:00:35Z level=WARNING message="High CPU usage detected" host=server1
+timestamp=2024-12-04T10:00:40Z request_method=GET request_url="/api/users" response_status=200 response_time_ms=120 host=server1
+timestamp=2024-12-04T10:00:45Z metric=cpu_usage_percent host=server2 value=92
+timestamp=2024-12-04T10:00:50Z level=DEBUG message="Query executed" query_time_ms=25 host=server1
+timestamp=2024-12-04T10:00:55Z request_method=DELETE request_url="/api/users/123" response_status=204 response_time_ms=80 host=server1
+timestamp=2024-12-04T10:01:00Z metric=network_throughput_mbps host=server1 value=1500
+timestamp=2024-12-04T10:01:05Z level=INFO message="Cache refreshed" host=server2
+timestamp=2024-12-04T10:01:10Z request_method=GET request_url="/api/products" response_status=500 response_time_ms=3000 host=server2
