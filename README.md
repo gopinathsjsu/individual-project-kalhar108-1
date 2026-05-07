@@ -1,4 +1,4 @@
-# Log Analyzer - Individual Project (Kalhar Mayurbhai Patel - 019140511)
+# Log Analyzer - Individual Project
 ## Project Overview
 
 This is a command-line application for parsing and aggregating different types of log entries from text files. The application implements design patterns (Strategy and Factory) to parse APM logs, Application logs, and Request logs, then generates JSON output files with statistical aggregations.
