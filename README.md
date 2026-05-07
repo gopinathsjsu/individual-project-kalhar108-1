@@ -3,6 +3,8 @@
 
 This is a command-line application for parsing and aggregating different types of log entries from text files. The application implements design patterns (Strategy and Factory) to parse APM logs, Application logs, and Request logs, then generates JSON output files with statistical aggregations.
 
+Check src files as well
+
 ## Design Patterns Used
 
 ### 1. **Strategy Pattern**
