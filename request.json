@@ -1,0 +1,50 @@
+{
+  "/api/retry": {
+    "response_times": {
+      "min": 250,
+      "95_percentile": 250,
+      "max": 250
+    },
+    "status_codes": {
+      "2XX": 0,
+      "4XX": 0,
+      "5XX": 1
+    }
+  },
+  "/home": {
+    "response_times": {
+      "min": 25,
+      "95_percentile": 25,
+      "max": 25
+    },
+    "status_codes": {
+      "2XX": 0,
+      "4XX": 1,
+      "5XX": 0
+    }
+  },
+  "/api/status": {
+    "response_times": {
+      "min": 100,
+      "95_percentile": 300,
+      "max": 300
+    },
+    "status_codes": {
+      "2XX": 3,
+      "4XX": 0,
+      "5XX": 1
+    }
+  },
+  "/api/update": {
+    "response_times": {
+      "min": 200,
+      "95_percentile": 200,
+      "max": 200
+    },
+    "status_codes": {
+      "2XX": 1,
+      "4XX": 0,
+      "5XX": 0
+    }
+  }
+}
